@@ -3,12 +3,12 @@ import { Text, StyleSheet, View } from 'react-native';
 
 const ComponentsScreen = () => {
 
-    const myName = <Text style={styles.nameStyle}>My name is Andrew</Text>
+    const name = 'Andrew';
 
     return (
     <View>
-        <Text style={styles.textStyle}>This is the components screen</Text>
-        {myName}
+        <Text style={styles.textStyle}>Getting started with React Native!</Text>
+        <Text style={styles.nameStyle}>My name is {name}</Text>
     </View>
     )
 };
